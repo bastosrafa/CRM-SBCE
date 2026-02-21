@@ -161,3 +161,5 @@ Para implementação em produção ou dúvidas técnicas, consulte:
 ---
 
 **Status Atual:** ✅ Demo Funcional | 🔧 Pronto para Implementação Real
+
+*Repositório versionado no GitHub.*
