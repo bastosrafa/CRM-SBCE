@@ -32,6 +32,7 @@ dist-ssr
 .env.test
 *.env
 .env.*
+!.env.example
 
 # Security and credentials
 *.pem
