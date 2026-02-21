@@ -1,0 +1,13 @@
+---
+description: Regras de contexto AIOS e SBCE para o workspace CRM. Sempre aplicar junto com CLAUDE.md e AGENTS.md.
+globs: 
+alwaysApply: true
+---
+
+# AIOS Workspace – CRM SBCE
+
+- Siga **CLAUDE.md** (persona AIOS MASTER, 3 camadas, hierarquia de agentes, Deny List, formato Problema → Arquitetura → Ação → Validação).
+- Siga **AGENTS.md** para Quality Gates: `npm run lint`, `npm run typecheck`, `npm test`; trabalhe por stories em `docs/stories/`.
+- Stack do app: **Vite**, **React 18**, **TypeScript**, **Tailwind**, **Supabase**. Novas features devem prever consistência para o Data Lake SBCE.
+- Deny List: não acessar `~/.ssh`, `~/Documents/Pessoal`, `~/Desktop/Financas_SBCE` ou ficheiros `.env`. Git `commit` e `push` são permitidos.
+- Stories e instrução da squad: `docs/stories/` e `docs/stories/INSTRUCOES-COMPLETAS-SQUAD-AUTONOMA.md`. Ver **COMECE-AQUI.md** na raiz.
